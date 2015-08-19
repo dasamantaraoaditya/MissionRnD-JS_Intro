@@ -40,10 +40,10 @@
 		it("should return nothing", function(){
 
 			var dateValue = JSIntro.ParseDate(null);
-			expect(isNaN(dateValue)).toEqual(true);
+			expect(dateValue == null).toEqual(true);
 		});
 
-		it("should return -123", function(){
+		it("should return a Date instance", function(){
 
 			var dateValue = JSIntro.ParseDate("June 1 2015");
 			expect(dateValue.getFullYear()).toEqual(2015);

@@ -79,7 +79,7 @@
 			expect(paragraph).toEqual("Hello.World.");
 		});
 
-		it("should return One Fish.Two Fish.Red Fish", function(){
+		it("should return a paragraph", function(){
 
 			var paragraph = JSIntro.CreateParagraph(["Microsoft Corporation was founded in the year 1975","Google was founded in the year 1998"]);
 			expect(paragraph).toEqual("Microsoft Corporation was founded in the year 1975.Google was founded in the year 1998.");

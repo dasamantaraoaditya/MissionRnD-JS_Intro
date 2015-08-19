@@ -1,3 +1,4 @@
+//Learn how to declare variables and how to use typeof operator to find the type of a variable.
 
 exports.Variables = function(){
 
@@ -11,6 +12,8 @@ exports.Variables = function(){
 
 }
 
+// JS is a weakly typed language. So, a variable can initially have a string value and then be
+// reassigned to have an integer value (the type of variable will change with the reassignment)
 exports.WeakTyping = function(){
 
 	console.log("\nJavascript.Tutorials WeakTyping");
@@ -31,6 +34,7 @@ exports.WeakTyping = function(){
 	console.log("Type of Variable str is: ", typeof(str));
 }
 
+// This function will introduce you to string, number, boolean and array data types.
 exports.DataTypes = function(){
 
 	console.log("\nJavascript.Tutorials DataTypes");
@@ -58,6 +62,8 @@ exports.DataTypes = function(){
 	console.log("Type of Variable arr is: ", typeof(arr));
 }
 
+// Learn how to push elements to an array, iterate on an array
+// and access its elements.
 exports.Arrays = function(){
 	console.log("\nJavascript.Tutorials Arrays");
 
@@ -88,6 +94,8 @@ function Person(firstName, lastName){
 
 }
 
+// learn how to create objects as well explore typeof/instanceof opertors.
+
 exports.Objects = function(){
 	console.log("\nJavascript.Tutorials Objects");
 
@@ -100,6 +108,7 @@ exports.Objects = function(){
 
 }
 
+// Learn how to use instanceof operator.
 exports.InstanceOf = function(){
 
 	console.log("\nJavascript.Tutorials InstanceOf");
@@ -118,6 +127,8 @@ exports.InstanceOf = function(){
 
 }
 
+// Learn how to use JSON.stringify() and JSON.parse() to serialize/deserialize objects.
+
 exports.Serialization = function(){
 	console.log("\nJavascript.Tutorials Serialization");
 	var p = new Person("Bill","Gates");
@@ -131,6 +142,7 @@ exports.Serialization = function(){
 
 }
 
+// Run node Tutorial.js and node will execute all the function calls given below.
 exports.Variables();
 exports.WeakTyping();
 exports.DataTypes();
