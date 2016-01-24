@@ -1,0 +1,1 @@
+{"project_name":"JS_Intro","project_gitrepo":"https://github.com/mission-rnd/mrnd-javascript","language":"javascript","project_page":"http://mission-rnd.github.io/javascript-basics.htm","project_validator":"jasmine-node --junitreport --captureExceptions spec/tests/","project_steps":["Tutorial","JSIntro","DateTime","Strings","Arrays","Objects","Serilization"]}
